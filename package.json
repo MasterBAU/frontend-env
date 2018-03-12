@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "hello": "echo 'HELLOOOO FROM NPM!!!'",
-    "start": "parcel index.html watch -p 4321"
+    "start": "parcel index.html watch -p 4321",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "npm",
@@ -17,7 +18,10 @@
   "author": "David Carter™",
   "license": "ISC",
   "dependencies": {
-    "node-sass": "^4.7.2",
     "parcel-bundler": "^1.6.2"
+  },
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "gh-pages": "^1.1.0"
   }
 }
