@@ -132,19 +132,13 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":10}],8:[function(require,module,exports) {
+},{"./bundle-url":10}],6:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":9}],5:[function(require,module,exports) {
-'use strict';
-
-require('./src/index.scss');
-
-console.log('HELLO PARCEL');
-},{"./src/index.scss":8}],11:[function(require,module,exports) {
+},{"_css_loader":9}],11:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -267,5 +261,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id);
   });
 }
-},{}]},{},[11,5])
-//# sourceMappingURL=/dist/first-npm-project.map
+},{}]},{},[11])
+//# sourceMappingURL=/dist/55cb7f15c3c7a67a86ae3740705b488c.map
