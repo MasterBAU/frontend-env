@@ -1,1 +1,7 @@
-body{background-color:red}body h1{font-family:Impact,Haettenschweiler,Arial Narrow Bold,sans-serif;color:#fff;font-weight:700;font-size:4em}
+body {
+  background-color: red; }
+  body h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 4em; }
