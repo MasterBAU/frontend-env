@@ -1,0 +1,51 @@
+@import './settings';
+
+body {
+  background-color: $c-bgpage;
+  font-family: 'system-ui';
+  font-size: $f-base;
+
+  h1 {
+    color: $c-maintxt;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1em;
+    font-weight: lighter;
+  }
+
+  ul {
+    background-color: $c-bglist;
+    list-style-type: none;
+    margin: 0 auto;
+    max-width: 50%;
+    padding: 1em;
+
+    li {
+      font-size: .5em;
+      line-height: 1.8;
+      text-align: left;
+    }
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  section {
+    margin-bottom: 3em;
+  }
+
+  p {
+    font-size: .5em;
+  }
+}
+
+.code {
+  background-color: $c-bgcode;
+  color: $c-txtcode;
+  margin-right: 4px;;
+  padding: 4px;
+}

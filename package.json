@@ -1,12 +1,13 @@
 {
-  "name": "first-npm-project",
+  "name": "frontend-dev-env",
   "version": "1.0.0",
-  "description": "My first NPM project!",
-  "main": "index.js",
+  "description": "Frontend development environment based on ParcelJS",
+  "main": "src/js/index.js",
   "scripts": {
-    "hello": "echo 'HELLOOOO FROM NPM!!!'",
-    "start": "parcel index.html watch -p 4321",
-    "deploy": "gh-pages -d dist"
+    "test": "echo 'Congratulations!! \nYou just run your first NPM script 👏 👏 👍\nNow try running: npm start \n '",
+    "start": "parcel src/index.html watch -p 8888",
+    "deploy": "npm run build && gh-pages -d dist",
+    "build": "parcel build src/index.html --public-url ./ --out-dir dist"
   },
   "keywords": [
     "npm",
@@ -15,7 +16,7 @@
     "frontend",
     "BAU"
   ],
-  "author": "David Carter™",
+  "author": "Dave Carter™",
   "license": "ISC",
   "dependencies": {
     "parcel-bundler": "^1.6.2"
